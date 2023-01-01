@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suit Jepang</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="title">
+        <p>Rock Paper Scissors</p>
+        <img src="./public/img/iconsuit.png" alt="titlelogo">
+    </div> 
+    
+    <section class="content">
+        <div class="game">
+            <button class="reset">Suit Lagi!</button>
+            <div class="result"></div>
+            <div class="movesLeft">
+                <p>Sisa: 10</p>
+            </div>
+            <div class="choose">
+                <div class="choice" id="gunting">
+                    <img src="./public/img/gunting.png" alt="gunting">
+                    <p id="gunting">Gunting</p>
+                </div> 
+                <div class="choice" id="batu">
+                    <img src="./public/img/batu.png" alt="batu">
+                    <p id="batu">Batu</p>
+                </div>
+                <div class="choice" id="kertas">
+                    <img src="./public/img/kertas.png" alt="kertas">
+                    <p id="kertas">Kertas</p>
+                </div>
+            </div>
+            <div class="scoreboard">
+                <p>Skor</p>
+                <div class="players">
+                    <span id="player-label">Pemain</span>
+                    <span id="computer-label">Bot</span>
+                </div>
+                <div class="score">
+                    <span id="player-score">0</span> | <span id="computer-score">0</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./public/js/index.js"></script>
+</body>
+</html>

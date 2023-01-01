@@ -1,0 +1,131 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: cadetblue;
+}
+
+.title {
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 2em;
+}
+
+.title img {
+    margin-top: 20px;
+    width: 72px;
+    height: 72px;
+}
+.content{
+    background-color: wheat;
+    border: 3px solid black;
+    padding: 30px;
+    margin: auto;
+    width: 50%;
+    color: black;
+}
+.game {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}
+
+.choice {
+    margin: 0;
+}
+
+.choice p {
+    color: black;
+    margin-top: 0;
+    text-align: center;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.choice p:hover {
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.choice img {
+    width: 240px;
+    height: 240px;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.choice img:hover {
+    cursor: pointer;
+    border: 2px solid;
+    box-shadow: 5px 5px black;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.scoreboard p {
+    color: black;
+    font-size: 26px;
+}
+
+.players, .score {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: center;
+    justify-content: center;
+}
+
+.scoreboard {
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 30px;
+    padding-top: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#player-score, #computer-score {
+    font-size: 22px;
+}
+
+.movesLeft p {
+    font-size: 20px;
+    color: black;
+    margin-top: 0;
+}
+
+.reset {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.reset:hover {
+    opacity: 0.73;
+    cursor: pointer;
+    color: red;
+}
